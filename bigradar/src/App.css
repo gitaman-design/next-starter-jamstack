@@ -1,0 +1,13 @@
+body {
+    --minibar-color: #E8E8E8;
+    --minibarIcon-color: #686868;
+    --primary-color : #2B32B2;
+    --sidebar-color : #F1F1F1;
+    --heading-color : #2a2a2a;
+    --subtext-color : #808080;
+  }
+
+.app__body {
+    display: flex;
+    height: 100vh;
+}

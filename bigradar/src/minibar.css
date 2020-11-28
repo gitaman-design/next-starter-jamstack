@@ -1,0 +1,72 @@
+.minibar {
+    background-color: var(--minibar-color);
+    display: flex;
+    flex-direction: column;
+
+}
+.mini__logo {
+    background-color: var(--primary-color);
+    width: 40px;
+    height: 40px;
+    margin-left: 12px;
+    margin-top: 10px;
+    border-radius: 5px;
+    justify-items: space-between;
+    margin-bottom: 20px;
+}
+
+.minibar > ul {
+    padding: 20px;
+    cursor: pointer;
+}
+
+.minibar > ul > li > a > .MuiSvgIcon-root:hover {
+    color: var(--primary-color);
+}
+
+.minibar > ul > li {
+    list-style-type: none;
+}
+
+.minibar > ul > li > a {
+    text-decoration: none;
+    color: var(--minibarIcon-color);
+}
+
+.mini__profile  {
+    position: absolute;
+    bottom: 0;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.mini__profile > .MuiSvgIcon-root {
+    color: var(--minibarIcon-color);
+    cursor: pointer;
+}
+
+.mini__profile > .MuiSvgIcon-root:hover {
+    color: var(--primary-color);
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip > #tooltiptext {
+    visibility: hidden;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover > #tooltiptext {
+    visibility: visible;
+  }

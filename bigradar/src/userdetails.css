@@ -1,0 +1,36 @@
+.user__detail {
+    display: flex;
+    flex: 0.2;
+    background-color: var(--sidebar-color);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.user__header > ul {
+    display: flex;
+    flex: 1;
+    padding: 15px;
+    align-items: center;
+}
+
+.user__header > ul > li {
+    list-style-type: none;
+}
+
+.user__header > ul > li > .MuiSvgIcon-root {
+    color: #808080;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.user__header > ul > li > h4 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.user__header > ul > li > p {
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 5px;
+    color: #808088;
+}

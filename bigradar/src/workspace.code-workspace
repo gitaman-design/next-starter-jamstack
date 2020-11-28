@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../../../react-work"
+		},
+		{
+			"path": "../../../slack-app"
+		},
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../counter-app"
+		}
+	],
+	"settings": {}
+}

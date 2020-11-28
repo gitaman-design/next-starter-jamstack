@@ -1,0 +1,17 @@
+.welcome {
+    display: flex;
+    padding-left: 300px;
+    align-items: center;
+}
+
+.welcome > .MuiSvgIcon-root {
+    color: var(--minibarIcon-color);
+    font-size: 80px;
+    margin-right: 10px;
+}
+
+.welcome__message > h1 {
+    color: var(--primary-color);
+    font-size: 40px;
+    margin-bottom: 10px;
+}
